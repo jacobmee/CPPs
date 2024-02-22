@@ -6,7 +6,7 @@ int m, offset, i, n;
 int main()
 {
         m = 1;
-        n = 2;
+        n = 3;
         cout << "S\tM\tT\tW\tT\tF\tS" << endl;
         offset = n;
         for (i = 1; i < m; i++)
