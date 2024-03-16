@@ -2,23 +2,23 @@
 using namespace std;
 
 int main() {
-  int n;
-  cin >> n;
+    int n;
+    cin >> n;
 
-  while (n % 2 == 0) {
-    n = n / 2;
-  }
+    while (n % 2 == 0) {
+        n = n / 2;
+    }
 
-  while (n % 3 == 0) {
-    n = n / 3;
-  }
+    while (n % 3 == 0) {
+        n = n / 3;
+    }
 
-  while (n % 5 == 0) {
-    n = n / 5;
-  }
+    while (n % 5 == 0) {
+        n = n / 5;
+    }
 
-  if (n == 1) {
-    cout << "Regular Number" << endl;
-  } else
-    cout << "Irregular Number" << endl;
+    if (n == 1) {
+        cout << "Regular Number" << endl;
+    } else
+        cout << "Irregular Number" << endl;
 }
